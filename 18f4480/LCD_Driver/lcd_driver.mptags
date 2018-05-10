@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+DIG_MAX::6	E:\18f4480\LCD_Driver\lcd_diver.c	16;"	d	line:16	file:
+Delay_ms	E:\18f4480\LCD_Driver\lcd_diver.c	109;"	f	line:109	signature:(int x)
+Delay_ms	E:\18f4480\LCD_Driver\lcd_diver.c	27;"	p	line:27	file:	signature:(int)
+array	E:\18f4480\LCD_Driver\lcd_diver.c	134;"	l	line:134
+cmd_value1	E:\18f4480\LCD_Driver\lcd_diver.c	70;"	l	line:70
+data_value1	E:\18f4480\LCD_Driver\lcd_diver.c	81;"	l	line:81
+dig	E:\18f4480\LCD_Driver\lcd_diver.c	133;"	l	line:133
+dis_cmd	E:\18f4480\LCD_Driver\lcd_diver.c	29;"	p	line:29	file:	signature:(unsigned char)
+dis_cmd	E:\18f4480\LCD_Driver\lcd_diver.c	68;"	f	line:68	signature:(unsigned char cmd_value)
+dis_data	E:\18f4480\LCD_Driver\lcd_diver.c	30;"	p	line:30	file:	signature:(unsigned char)
+dis_data	E:\18f4480\LCD_Driver\lcd_diver.c	79;"	f	line:79	signature:(unsigned char data_value)
+en::LATDbits.LATD2	E:\18f4480\LCD_Driver\lcd_diver.c	22;"	d	line:22	file:
+i	E:\18f4480\LCD_Driver\lcd_diver.c	111;"	l	line:111
+j	E:\18f4480\LCD_Driver\lcd_diver.c	111;"	l	line:111
+lcd_clrscr	E:\18f4480\LCD_Driver\lcd_diver.c	170;"	f	line:170	signature:(void)
+lcd_clrscr	E:\18f4480\LCD_Driver\lcd_diver.c	37;"	p	line:37	file:	signature:(void)
+lcd_goto	E:\18f4480\LCD_Driver\lcd_diver.c	151;"	f	line:151	signature:(unsigned char cnt)
+lcd_goto	E:\18f4480\LCD_Driver\lcd_diver.c	39;"	p	line:39	file:	signature:(unsigned char )
+lcd_goto_pos	E:\18f4480\LCD_Driver\lcd_diver.c	164;"	f	line:164	signature:(unsigned char cnt)
+lcd_goto_pos	E:\18f4480\LCD_Driver\lcd_diver.c	38;"	p	line:38	file:	signature:(unsigned char)
+lcd_init	E:\18f4480\LCD_Driver\lcd_diver.c	28;"	p	line:28	file:	signature:(void)
+lcd_init	E:\18f4480\LCD_Driver\lcd_diver.c	57;"	f	line:57
+lcd_put_array	E:\18f4480\LCD_Driver\lcd_diver.c	145;"	f	line:145	signature:(char *pt)
+lcd_put_array	E:\18f4480\LCD_Driver\lcd_diver.c	35;"	p	line:35	file:	signature:(char *)
+lcd_putc	E:\18f4480\LCD_Driver\lcd_diver.c	125;"	f	line:125	signature:(unsigned char c)
+lcd_putc	E:\18f4480\LCD_Driver\lcd_diver.c	34;"	p	line:34	file:	signature:(unsigned char)
+lcd_putn	E:\18f4480\LCD_Driver\lcd_diver.c	131;"	f	line:131	signature:(unsigned int n)
+lcd_putn	E:\18f4480\LCD_Driver\lcd_diver.c	36;"	p	line:36	file:	signature:(unsigned int )
+lcd_puts	E:\18f4480\LCD_Driver\lcd_diver.c	118;"	f	line:118	signature:(static const rom char *p)
+lcd_puts	E:\18f4480\LCD_Driver\lcd_diver.c	33;"	p	line:33	file:	signature:(static const rom char *)
+lcdcmd	E:\18f4480\LCD_Driver\lcd_diver.c	31;"	p	line:31	file:	signature:(unsigned char)
+lcdcmd	E:\18f4480\LCD_Driver\lcd_diver.c	88;"	f	line:88	signature:(unsigned char cmdout)
+lcddata	E:\18f4480\LCD_Driver\lcd_diver.c	32;"	p	line:32	file:	signature:(unsigned char)
+lcddata	E:\18f4480\LCD_Driver\lcd_diver.c	97;"	f	line:97	signature:(unsigned char dataout)
+lcdport::LATD	E:\18f4480\LCD_Driver\lcd_diver.c	25;"	d	line:25	file:
+no	E:\18f4480\LCD_Driver\lcd_diver.c	132;"	l	line:132
+rs::LATDbits.LATD3	E:\18f4480\LCD_Driver\lcd_diver.c	21;"	d	line:21	file:

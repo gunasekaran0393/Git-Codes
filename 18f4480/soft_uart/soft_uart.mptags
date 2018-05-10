@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BAUD_RATE::9600	E:\18f4480\soft_uart\soft_uart.c	13;"	d	line:13	file:
+D::delay	E:\18f4480\soft_uart\soft_uart.c	27;"	d	line:27	file:
+DIG_MAX::6	E:\18f4480\uart_check\uart_check.c	26;"	d	line:26	file:
+DelayRXBitUART	E:\18f4480\soft_uart\soft_uart.c	97;"	f	line:97	signature:(void)
+DelayRXHalfBitUART	E:\18f4480\soft_uart\soft_uart.c	83;"	f	line:83	signature:(void)
+DelayTXBitUART	E:\18f4480\soft_uart\soft_uart.c	63;"	f	line:63
+FOSC::16000000	E:\18f4480\soft_uart\soft_uart.c	16;"	d	line:16	file:
+UART_RCIF::PIR1bits.RCIF	E:\18f4480\uart_check\uart_check.c	30;"	d	line:30	file:
+array	E:\18f4480\uart_check\uart_check.c	113;"	l	line:113
+dat	E:\18f4480\uart_check\uart_check.c	42;"	v	line:42
+data	E:\18f4480\soft_uart\soft_uart.c	31;"	l	line:31
+data	E:\18f4480\uart_check\uart_check.c	41;"	v	line:41
+data1	E:\18f4480\soft_uart\soft_uart.c	33;"	l	line:33
+delay	E:\18f4480\soft_uart\soft_uart.c	22;"	l	line:22
+dig	E:\18f4480\uart_check\uart_check.c	112;"	l	line:112
+i	E:\18f4480\uart_check\uart_check.c	40;"	v	line:40
+main	E:\18f4480\soft_uart\soft_uart.c	29;"	f	line:29	signature:(void)
+main	E:\18f4480\uart_check\uart_check.c	43;"	f	line:43	signature:(void)
+no	E:\18f4480\uart_check\uart_check.c	111;"	l	line:111
+readcode	E:\18f4480\soft_uart\soft_uart.c	32;"	l	line:32
+soft_uart_init	E:\18f4480\soft_uart\soft_uart.c	20;"	f	line:20	signature:(unsigned int x)
+uart_getc	E:\18f4480\uart_check\uart_check.c	133;"	f	line:133	signature:(void)
+uart_getc	E:\18f4480\uart_check\uart_check.c	21;"	p	line:21	file:	signature:(void)
+uart_gets	E:\18f4480\uart_check\uart_check.c	145;"	f	line:145	signature:(int x)
+uart_gets	E:\18f4480\uart_check\uart_check.c	22;"	p	line:22	file:	signature:(int )
+uart_init	E:\18f4480\uart_check\uart_check.c	20;"	p	line:20	file:	signature:(unsigned int baud)
+uart_init	E:\18f4480\uart_check\uart_check.c	78;"	f	line:78	signature:(unsigned int baud)
+uart_put_array	E:\18f4480\uart_check\uart_check.c	102;"	f	line:102	signature:(char *pt)
+uart_put_array	E:\18f4480\uart_check\uart_check.c	17;"	p	line:17	file:	signature:(char *)
+uart_putc	E:\18f4480\uart_check\uart_check.c	127;"	f	line:127	signature:(unsigned char data)
+uart_putc	E:\18f4480\uart_check\uart_check.c	19;"	p	line:19	file:	signature:(unsigned char)
+uart_putn	E:\18f4480\uart_check\uart_check.c	110;"	f	line:110	signature:(unsigned int n)
+uart_putn	E:\18f4480\uart_check\uart_check.c	18;"	p	line:18	file:	signature:(unsigned int)
+uart_puts	E:\18f4480\uart_check\uart_check.c	16;"	p	line:16	file:	signature:(static const rom char *)
+uart_puts	E:\18f4480\uart_check\uart_check.c	94;"	f	line:94	signature:(static const rom char *p)

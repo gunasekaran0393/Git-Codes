@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+Delay_ms	C:\Users\Guna\Desktop\Code\LCD.c	27;"	p	line:27	file:
+Delay_ms	C:\Users\Guna\Desktop\Code\LCD.c	95;"	f	line:95
+cmd_value1	C:\Users\Guna\Desktop\Code\LCD.c	59;"	l	line:59
+data0	C:\Users\Guna\Desktop\Code\LCD.c	36;"	l	line:36
+data_value1	C:\Users\Guna\Desktop\Code\LCD.c	69;"	l	line:69
+dis_cmd	C:\Users\Guna\Desktop\Code\LCD.c	29;"	p	line:29	file:	signature:(unsigned char)
+dis_cmd	C:\Users\Guna\Desktop\Code\LCD.c	57;"	f	line:57	signature:(unsigned char cmd_value)
+dis_data	C:\Users\Guna\Desktop\Code\LCD.c	30;"	p	line:30	file:	signature:(unsigned char)
+dis_data	C:\Users\Guna\Desktop\Code\LCD.c	67;"	f	line:67	signature:(unsigned char data_value)
+en::LATDbits.LATD2	C:\Users\Guna\Desktop\Code\LCD.c	23;"	d	line:23	file:
+i	C:\Users\Guna\Desktop\Code\LCD.c	37;"	l	line:37
+i	C:\Users\Guna\Desktop\Code\LCD.c	97;"	l	line:97
+lcd_ini	C:\Users\Guna\Desktop\Code\LCD.c	28;"	p	line:28	file:
+lcd_ini	C:\Users\Guna\Desktop\Code\LCD.c	48;"	f	line:48
+lcdcmd	C:\Users\Guna\Desktop\Code\LCD.c	31;"	p	line:31	file:	signature:(unsigned char)
+lcdcmd	C:\Users\Guna\Desktop\Code\LCD.c	76;"	f	line:76	signature:(unsigned char cmdout)
+lcddata	C:\Users\Guna\Desktop\Code\LCD.c	32;"	p	line:32	file:	signature:(unsigned char)
+lcddata	C:\Users\Guna\Desktop\Code\LCD.c	86;"	f	line:86	signature:(unsigned char dataout)
+lcdport::LATD	C:\Users\Guna\Desktop\Code\LCD.c	26;"	d	line:26	file:
+main	C:\Users\Guna\Desktop\Code\LCD.c	34;"	f	line:34	signature:(void)
+rs::LATDbits.LATD3	C:\Users\Guna\Desktop\Code\LCD.c	21;"	d	line:21	file:

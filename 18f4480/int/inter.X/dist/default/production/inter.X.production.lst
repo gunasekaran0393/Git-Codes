@@ -1,0 +1,291 @@
+
+
+Microchip Technology PIC18 LITE Macro Assembler V1.33 build 59893 
+                                                                                               Tue Jul 28 22:10:17 2015
+
+Microchip Technology Omniscient Code Generator (Lite mode) build 59893
+     1                           	processor	18F4480
+     2                           	fnconf	rparam,??,?,0
+     3                           	opt	pw 120
+     4                           	opt	lm
+     5                           	psect	text0,global,reloc=2,class=CODE,delta=1
+     6                           	psect	cinit,global,reloc=2,class=CODE,delta=1
+     7                           	psect	cstackCOMRAM,global,class=COMRAM,space=1,delta=1
+     8                           	psect	text1,global,reloc=2,class=CODE,delta=1
+     9                           	psect	intsave_regs,global,class=BIGRAM,space=1,delta=1
+    10                           	psect	rparam,global,class=COMRAM,space=1,delta=1
+    11  0000                     _PORTAbits	set	3968
+    12  0000                     _TRISAbits	set	3986
+    13                           
+    14                           ; 0 bytes @ 0x4
+    15 ;;
+    16 ;;Main: autosize = 0, tempsize = 0, incstack = 0, save=0
+    17 ;;
+    18 ;; *************** function _main *****************
+    19 ;; Defined at:
+    20 ;;		line 27 in file "../newfile.c"
+    21 ;; Parameters:    Size  Location     Type
+    22 ;;		None
+    23 ;; Auto vars:     Size  Location     Type
+    24 ;;		None
+    25 ;; Return value:  Size  Location     Type
+    26 ;;		None               void
+    27 ;; Registers used:
+    28 ;;		wreg, status,2, status,0, cstack
+    29 ;; Tracked objects:
+    30 ;;		On entry : 0/0
+    31 ;;		On exit  : 0/0
+    32 ;;		Unchanged: 0/0
+    33 ;; Data sizes:     COMRAM   BANK0   BANK1   BANK2
+    34 ;;      Params:         0       0       0       0
+    35 ;;      Locals:         0       0       0       0
+    36 ;;      Temps:          0       0       0       0
+    37 ;;      Totals:         0       0       0       0
+    38 ;;Total ram usage:        0 bytes
+    39 ;; Hardware stack levels required when called:    1
+    40 ;; This function calls:
+    41 ;;		_delayzz
+    42 ;; This function is called by:
+    43 ;;		Startup code after reset
+    44 ;; This function uses a non-reentrant model
+    45 ;;
+    46                           
+    47                           	psect	text0
+    48  003FB2                     __ptext0:
+    49                           	opt stack 0
+    50  003FB2                     _main:
+    51                           	opt stack 30
+    52                           
+    53                           ;newfile.c: 29: TRISAbits.RA5 = 0 ;
+    54                           
+    55                           ;incstack = 0
+    56  003FB2  9A92               	bcf	3986,5,c	;volatile
+    57  003FB4                     l14:
+    58                           
+    59                           ;newfile.c: 41: {
+    60                           ;newfile.c: 43: PORTAbits.RA5 = 1;
+    61  003FB4  8A80               	bsf	3968,5,c	;volatile
+    62                           
+    63                           ;newfile.c: 46: delayzz();
+    64  003FB6  ECE1  F01F         	call	_delayzz	;wreg free
+    65                           
+    66                           ;newfile.c: 47: PORTAbits.RA5 = 0;
+    67  003FBA  9A80               	bcf	3968,5,c	;volatile
+    68                           
+    69                           ;newfile.c: 51: delayzz();
+    70  003FBC  ECE1  F01F         	call	_delayzz	;wreg free
+    71  003FC0  D7F9               	goto	l14
+    72  003FC2                     __end_of_main:
+    73                           	opt stack 0
+    74                           
+    75                           	psect	cinit
+    76  003FAC                     __pcinit:
+    77                           	opt stack 0
+    78  003FAC                     start_initialization:
+    79                           	opt stack 0
+    80  003FAC                     __initialization:
+    81                           	opt stack 0
+    82  003FAC                     end_of_initialization:
+    83                           	opt stack 0
+    84  003FAC                     __end_of__initialization:
+    85                           	opt stack 0
+    86  003FAC  0100               	movlb	0
+    87  003FAE  EFD9  F01F         	goto	_main	;jump to C main() function
+    88                           
+    89                           	psect	cstackCOMRAM
+    90  000001                     __pcstackCOMRAM:
+    91                           	opt stack 0
+    92  000001                     delayzz@i:
+    93                           	opt stack 0
+    94                           
+    95                           ; 2 bytes @ 0x0
+    96  000001                     	ds	2
+    97  000003                     delayzz@j:
+    98                           	opt stack 0
+    99                           
+   100                           ; 2 bytes @ 0x2
+   101  000003                     	ds	2
+   102  000005                     
+   103 ;; *************** function _delayzz *****************
+   104 ;; Defined at:
+   105 ;;		line 17 in file "../newfile.c"
+   106 ;; Parameters:    Size  Location     Type
+   107 ;;		None
+   108 ;; Auto vars:     Size  Location     Type
+   109 ;;  j               2    2[COMRAM] int 
+   110 ;;  i               2    0[COMRAM] int 
+   111 ;; Return value:  Size  Location     Type
+   112 ;;		None               void
+   113 ;; Registers used:
+   114 ;;		wreg, status,2, status,0
+   115 ;; Tracked objects:
+   116 ;;		On entry : 0/0
+   117 ;;		On exit  : 0/0
+   118 ;;		Unchanged: 0/0
+   119 ;; Data sizes:     COMRAM   BANK0   BANK1   BANK2
+   120 ;;      Params:         0       0       0       0
+   121 ;;      Locals:         4       0       0       0
+   122 ;;      Temps:          0       0       0       0
+   123 ;;      Totals:         4       0       0       0
+   124 ;;Total ram usage:        4 bytes
+   125 ;; Hardware stack levels used:    1
+   126 ;; This function calls:
+   127 ;;		Nothing
+   128 ;; This function is called by:
+   129 ;;		_main
+   130 ;; This function uses a non-reentrant model
+   131 ;;
+   132                           
+   133                           	psect	text1
+   134  003FC2                     __ptext1:
+   135                           	opt stack 0
+   136  003FC2                     _delayzz:
+   137                           	opt stack 30
+   138                           
+   139                           ;newfile.c: 19: for(i=0;i<500;i++)
+   140                           
+   141                           ;incstack = 0
+   142  003FC2  0E00               	movlw	0
+   143  003FC4  6E02               	movwf	delayzz@i+1,c
+   144  003FC6  0E00               	movlw	0
+   145  003FC8  6E01               	movwf	delayzz@i,c
+   146  003FCA  5002               	movf	delayzz@i+1,w,c
+   147  003FCC  0A80               	xorlw	128
+   148  003FCE  0F7F               	addlw	-129
+   149  003FD0  0EF4               	movlw	244
+   150  003FD2  B4D8               	btfsc	status,2,c
+   151  003FD4  5C01               	subwf	delayzz@i,w,c
+   152  003FD6  B0D8               	btfsc	status,0,c
+   153  003FD8  D012               	goto	l11
+   154                           
+   155                           ;newfile.c: 20: {
+   156                           ;newfile.c: 21: for(j=0;j<2;j++)
+   157  003FDA  0E00               	movlw	0
+   158  003FDC  6E04               	movwf	delayzz@j+1,c
+   159  003FDE  0E00               	movlw	0
+   160  003FE0  6E03               	movwf	delayzz@j,c
+   161  003FE2  5004               	movf	delayzz@j+1,w,c
+   162  003FE4  0A80               	xorlw	128
+   163  003FE6  0F80               	addlw	-128
+   164  003FE8  0E02               	movlw	2
+   165  003FEA  B4D8               	btfsc	status,2,c
+   166  003FEC  5C03               	subwf	delayzz@j,w,c
+   167  003FEE  B0D8               	btfsc	status,0,c
+   168  003FF0  D003               	goto	l609
+   169                           
+   170                           ;newfile.c: 22: { } } }
+   171  003FF2  4A03               	infsnz	delayzz@j,f,c
+   172  003FF4  2A04               	incf	delayzz@j+1,f,c
+   173  003FF6  D7F5               	goto	L1
+   174  003FF8                     l609:
+   175  003FF8  4A01               	infsnz	delayzz@i,f,c
+   176  003FFA  2A02               	incf	delayzz@i+1,f,c
+   177  003FFC  D7E6               	goto	L2
+   178  003FFE                     l11:
+   179  003FFE  0012               	return	
+   180  004000                     __end_of_delayzz:
+   181                           	opt stack 0
+   182  0000                     status	equ	0xFD8
+   183                           status	equ	0xFD8
+   184                           
+   185                           	psect	rparam
+   186  0000                     status	equ	0xFD8
+
+
+Data Sizes:
+    Strings     0
+    Constant    0
+    Data        0
+    BSS         0
+    Persistent  0
+    Stack       0
+
+Auto Spaces:
+    Space          Size  Autos    Used
+    COMRAM           95      4       4
+    BANK0           160      0       0
+    BANK1           256      0       0
+    BANK2           256      0       0
+
+Pointer List with Targets:
+
+    None.
+
+Critical Paths under _main in COMRAM
+
+    _main->_delayzz
+
+Critical Paths under _main in BANK0
+
+    None.
+
+Critical Paths under _main in BANK1
+
+    None.
+
+Critical Paths under _main in BANK2
+
+    None.
+
+Call Graph Tables:
+
+ ---------------------------------------------------------------------------------
+ (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+ ---------------------------------------------------------------------------------
+ (0) _main                                                 0     0      0      60
+                            _delayzz
+ ---------------------------------------------------------------------------------
+ (1) _delayzz                                              4     4      0      60
+                                              0 COMRAM     4     4      0
+ ---------------------------------------------------------------------------------
+ Estimated maximum stack depth 1
+ ---------------------------------------------------------------------------------
+
+ Call Graph Graphs:
+
+ _main (ROOT)
+   _delayzz
+
+ Address spaces:
+Name               Size   Autos  Total    Cost      Usage
+BITCOMRAM           5F      0       0       0        0.0%
+EEDATA             100      0       0       0        0.0%
+NULL                 0      0       0       0        0.0%
+CODE                 0      0       0       0        0.0%
+COMRAM              5F      4       4       1        4.2%
+STACK                0      0       0       2        0.0%
+BITBANK0            A0      0       0       3        0.0%
+BANK0               A0      0       0       4        0.0%
+BITBANK1           100      0       0       5        0.0%
+BANK1              100      0       0       6        0.0%
+BITBANK2           100      0       0       7        0.0%
+BANK2              100      0       0       8        0.0%
+ABS                  0      0       0       9        0.0%
+BIGRAM             2FF      0       0      10        0.0%
+DATA                 0      0       0      11        0.0%
+BITSFR_3             0      0       0      40        0.0%
+SFR_3                0      0       0      40        0.0%
+BITSFR_2             0      0       0      40        0.0%
+SFR_2                0      0       0      40        0.0%
+BITSFR_1             0      0       0      40        0.0%
+SFR_1                0      0       0      40        0.0%
+BITSFR               0      0       0      40        0.0%
+SFR                  0      0       0      40        0.0%
+
+
+Microchip Technology PIC18 Macro Assembler V1.33 build 59893 
+Symbol Table                                                                                   Tue Jul 28 22:10:17 2015
+
+                     l11 3FFE                       l14 3FB4                      l609 3FF8  
+           __CFG_LVP$OFF 000000             __CFG_WDT$OFF 000000                     _main 3FB2  
+                   start 0000                    ?_main 0001          __end_of_delayzz 4000  
+         __CFG_BOREN$OFF 000000                    status 000FD8           __CFG_MCLRE$OFF 000000  
+        __initialization 3FAC             __end_of_main 3FC2                   ??_main 0005  
+          __activetblptr 000000                ??_delayzz 0001               __accesstop 0060  
+__end_of__initialization 3FAC           __pcstackCOMRAM 0001          __CFG_OSC$IRCIO7 000000  
+                __Hparam 0000                  __Lparam 0000                  __pcinit 3FAC  
+                __ramtop 0300                  _delayzz 3FC2                  __ptext0 3FB2  
+                __ptext1 3FC2     end_of_initialization 3FAC                _PORTAbits 000F80  
+              _TRISAbits 000F92      start_initialization 3FAC                 ?_delayzz 0001  
+               __Hrparam 0000                 __Lrparam 0000         __size_of_delayzz 003E  
+          __size_of_main 0010                 delayzz@i 0001                 delayzz@j 0003  

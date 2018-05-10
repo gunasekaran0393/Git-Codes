@@ -1,0 +1,19 @@
+# MPLAB IDE generated this makefile for use with GNU make.
+# Project: servo_motor_control.mcp
+# Date: Mon Oct 05 07:55:11 2015
+
+AS = MPASMWIN.exe
+CC = mcc18.exe
+LD = mplink.exe
+AR = mplib.exe
+RM = rm
+
+servo_motor_control.cof : servo_motor_control.o
+	$(LD) /p18F4480 /l"C:\Program Files\Microchip\mplabc18\v3.47\lib" "servo_motor_control.o" /u_CRUNTIME /z__MPLAB_BUILD=1 /o"servo_motor_control.cof" /M"servo_motor_control.map" /W
+
+servo_motor_control.o : servo_motor_control.c C:/Program\ Files/Microchip/mplabc18/v3.47/h/delays.h servo_motor_control.c C:/Program\ Files/Microchip/mplabc18/v3.47/h/p18f4480.h delay.h C:/Program\ Files/Microchip/mplabc18/v3.47/h/p18cxxx.h
+	$(CC) -p=18F4480 "servo_motor_control.c" -fo="servo_motor_control.o" -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+
+clean : 
+	$(RM) "servo_motor_control.o" "servo_motor_control.cof" "servo_motor_control.hex"
+

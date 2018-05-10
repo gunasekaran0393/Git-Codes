@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+DIG_MAX::6	D:\2015-16 code\18f4480\uart2\uart2check.c	26;"	d	line:26	file:
+FOSC::16	D:\2015-16 code\18f4480\uart2\uart2check.c	10;"	d	line:10	file:
+FOSC::4	D:\2015-16 code\18f4480\uart2\uart2check.c	33;"	d	line:33	file:
+array	D:\2015-16 code\18f4480\uart2\uart2check.c	114;"	l	line:114
+c	D:\2015-16 code\18f4480\uart2\uart2check.c	40;"	l	line:40
+data	D:\2015-16 code\18f4480\uart2\uart2check.c	151;"	l	line:151
+data	D:\2015-16 code\18f4480\uart2\uart2check.c	41;"	l	line:41
+dig	D:\2015-16 code\18f4480\uart2\uart2check.c	113;"	l	line:113
+i	D:\2015-16 code\18f4480\uart2\uart2check.c	150;"	l	line:150
+main	D:\2015-16 code\18f4480\uart2\uart2check.c	37;"	f	line:37	signature:(void)
+no	D:\2015-16 code\18f4480\uart2\uart2check.c	112;"	l	line:112
+uart_getc	D:\2015-16 code\18f4480\uart2\uart2check.c	134;"	f	line:134	signature:(void)
+uart_getc	D:\2015-16 code\18f4480\uart2\uart2check.c	20;"	p	line:20	file:	signature:(void)
+uart_getstring	D:\2015-16 code\18f4480\uart2\uart2check.c	148;"	f	line:148	signature:( char *buffer, unsigned char len)
+uart_getstring	D:\2015-16 code\18f4480\uart2\uart2check.c	21;"	p	line:21	file:	signature:( char *, unsigned char len)
+uart_init	D:\2015-16 code\18f4480\uart2\uart2check.c	19;"	p	line:19	file:	signature:(unsigned int baud)
+uart_init	D:\2015-16 code\18f4480\uart2\uart2check.c	59;"	f	line:59	signature:(unsigned int baud)
+uart_put_array	D:\2015-16 code\18f4480\uart2\uart2check.c	103;"	f	line:103	signature:(char *pt)
+uart_put_array	D:\2015-16 code\18f4480\uart2\uart2check.c	15;"	p	line:15	file:	signature:(char *)
+uart_putc	D:\2015-16 code\18f4480\uart2\uart2check.c	128;"	f	line:128	signature:(unsigned char data)
+uart_putc	D:\2015-16 code\18f4480\uart2\uart2check.c	17;"	p	line:17	file:	signature:(unsigned char)
+uart_putc1	D:\2015-16 code\18f4480\uart2\uart2check.c	167;"	f	line:167	signature:(char data)
+uart_putc1	D:\2015-16 code\18f4480\uart2\uart2check.c	18;"	p	line:18	file:	signature:(char data)
+uart_putn	D:\2015-16 code\18f4480\uart2\uart2check.c	111;"	f	line:111	signature:(unsigned int n)
+uart_putn	D:\2015-16 code\18f4480\uart2\uart2check.c	16;"	p	line:16	file:	signature:(unsigned int)
+uart_puts	D:\2015-16 code\18f4480\uart2\uart2check.c	13;"	p	line:13	file:	signature:(static const rom char *)
+uart_puts	D:\2015-16 code\18f4480\uart2\uart2check.c	76;"	f	line:76	signature:(static const rom char *p)
+uart_putstring	D:\2015-16 code\18f4480\uart2\uart2check.c	14;"	p	line:14	file:	signature:(static const char *data)
+uart_putstring	D:\2015-16 code\18f4480\uart2\uart2check.c	89;"	f	line:89	signature:(static const char *data)

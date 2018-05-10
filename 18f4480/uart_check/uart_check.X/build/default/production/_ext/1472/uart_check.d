@@ -1,0 +1,1 @@
+ build/default/production/_ext/1472/uart_check.d  build/default/production/_ext/1472/uart_check.p1:  ../uart_check.c ../lcd_driver.c ../delay.h

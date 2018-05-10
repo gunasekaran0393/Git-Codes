@@ -1,0 +1,3 @@
+Warning[2066] E:\18f4480\uart_check\uart_check.c 58 : type qualifier mismatch in assignment
+Warning[2054] E:\18f4480\uart_check\uart_check.c 153 : suspicious pointer conversion
+Warning[2054] E:\18f4480\uart_check\uart_check.c 164 : suspicious pointer conversion

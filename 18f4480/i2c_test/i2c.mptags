@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ACK::0	D:\Coding\18f4480\i2c_test\i2c.c	15;"	d	line:15	file:
+CHECK_ADDRESS::0x71	D:\Coding\18f4480\i2c_test\i2c.c	32;"	d	line:32	file:
+CLEAR::0	D:\Coding\18f4480\i2c_test\i2c.c	12;"	d	line:12	file:
+I2C_MASTER_MODE::0x28	D:\Coding\18f4480\i2c_test\i2c.c	23;"	d	line:23	file:
+NACK::1	D:\Coding\18f4480\i2c_test\i2c.c	14;"	d	line:14	file:
+SCL_DIR::TRISCbits.TRISC3	D:\Coding\18f4480\i2c_test\i2c.c	17;"	d	line:17	file:
+SDA_DIR::TRISCbits.TRISC4	D:\Coding\18f4480\i2c_test\i2c.c	18;"	d	line:18	file:
+SEN_DISABLE::0x00	D:\Coding\18f4480\i2c_test\i2c.c	22;"	d	line:22	file:
+SET::1	D:\Coding\18f4480\i2c_test\i2c.c	13;"	d	line:13	file:
+SLAVE_RD::(val)((val<<1)+1)	D:\Coding\18f4480\i2c_test\i2c.c	29;"	d	line:29	file:
+SLAVE_WR::(val)((val<<1)+0)	D:\Coding\18f4480\i2c_test\i2c.c	28;"	d	line:28	file:
+SMP_DISABLE::0x80	D:\Coding\18f4480\i2c_test\i2c.c	20;"	d	line:20	file:
+SMP_ENABLE::0x00	D:\Coding\18f4480\i2c_test\i2c.c	21;"	d	line:21	file:
+delay	D:\Coding\18f4480\i2c_test\i2c.c	46;"	f	line:46	signature:(void)
+i	D:\Coding\18f4480\i2c_test\i2c.c	48;"	l	line:48
+i2c_ack	D:\Coding\18f4480\i2c_test\i2c.c	131;"	f	line:131	signature:(void)
+i2c_ack	D:\Coding\18f4480\i2c_test\i2c.c	41;"	p	line:41	file:	signature:(void)
+i2c_byte_read	D:\Coding\18f4480\i2c_test\i2c.c	103;"	f	line:103	signature:(void)
+i2c_byte_read	D:\Coding\18f4480\i2c_test\i2c.c	37;"	p	line:37	file:	signature:(void)
+i2c_byte_write	D:\Coding\18f4480\i2c_test\i2c.c	36;"	p	line:36	file:	signature:(unsigned char i2c_byte)
+i2c_byte_write	D:\Coding\18f4480\i2c_test\i2c.c	95;"	f	line:95	signature:(unsigned char i2c_byte)
+i2c_master_init	D:\Coding\18f4480\i2c_test\i2c.c	146;"	f	line:146	signature:(void)
+i2c_master_init	D:\Coding\18f4480\i2c_test\i2c.c	35;"	p	line:35	file:	signature:(void)
+i2c_nack	D:\Coding\18f4480\i2c_test\i2c.c	123;"	f	line:123	signature:(void)
+i2c_nack	D:\Coding\18f4480\i2c_test\i2c.c	40;"	p	line:40	file:	signature:(void)
+i2c_repeated_start	D:\Coding\18f4480\i2c_test\i2c.c	139;"	f	line:139	signature:(void)
+i2c_repeated_start	D:\Coding\18f4480\i2c_test\i2c.c	42;"	p	line:42	file:	signature:(void)
+i2c_start	D:\Coding\18f4480\i2c_test\i2c.c	110;"	f	line:110	signature:(void)
+i2c_start	D:\Coding\18f4480\i2c_test\i2c.c	38;"	p	line:38	file:	signature:(void)
+i2c_stop	D:\Coding\18f4480\i2c_test\i2c.c	116;"	f	line:116	signature:(void)
+i2c_stop	D:\Coding\18f4480\i2c_test\i2c.c	39;"	p	line:39	file:	signature:(void)
+j	D:\Coding\18f4480\i2c_test\i2c.c	48;"	l	line:48
+main	D:\Coding\18f4480\i2c_test\i2c.c	54;"	f	line:54
+rx	D:\Coding\18f4480\i2c_test\i2c.c	56;"	l	line:56
+wait_mssp::while(!PIR1bits.SSPIF);PIR1bit	D:\Coding\18f4480\i2c_test\i2c.c	25;"	d	line:25	file:

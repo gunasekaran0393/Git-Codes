@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BTN1::PORTBbits.RB0	D:\CAN_coding_test\CAN_test\main.c	90;"	d	line:90	file:
+ButtonPressed	D:\CAN_coding_test\CAN_test\main.c	107;"	p	line:107	file:	signature:(void)
+ButtonPressed	D:\CAN_coding_test\CAN_test\main.c	248;"	f	line:248	signature:(void)
+DEVICE_OSC::16	D:\CAN_coding_test\CAN_test\main.c	97;"	d	line:97	file:
+Delay	D:\CAN_coding_test\CAN_test\main.c	108;"	p	line:108	file:	signature:(unsigned int count)
+Delay	D:\CAN_coding_test\CAN_test\main.c	280;"	f	line:280	signature:(unsigned int count)
+ECAN_Receive	D:\CAN_coding_test\CAN_test\ECAN.c	204;"	f	line:204	signature:(void)
+ECAN_Receive	D:\CAN_coding_test\CAN_test\ECAN.h	79;"	p	line:79	signature:(void)
+ECAN_Transmit	D:\CAN_coding_test\CAN_test\ECAN.c	285;"	f	line:285	signature:(unsigned int x)
+ECAN_Transmit	D:\CAN_coding_test\CAN_test\ECAN.h	81;"	p	line:81	signature:(unsigned int )
+FALSE::0	D:\CAN_coding_test\CAN_test\ECAN.h	69;"	d	line:69
+FALSE::0	D:\CAN_coding_test\CAN_test\main.c	95;"	d	line:95	file:
+F_ECAN_1000::0	D:\CAN_coding_test\CAN_test\ECAN.c	82;"	d	line:82	file:
+F_ECAN_100::1	D:\CAN_coding_test\CAN_test\ECAN.c	79;"	d	line:79	file:
+F_ECAN_125::0	D:\CAN_coding_test\CAN_test\ECAN.c	80;"	d	line:80	file:
+F_ECAN_500::0	D:\CAN_coding_test\CAN_test\ECAN.c	81;"	d	line:81	file:
+Heartbeat	D:\CAN_coding_test\CAN_test\main.c	109;"	p	line:109	file:	signature:(void)
+Heartbeat	D:\CAN_coding_test\CAN_test\main.c	291;"	f	line:291	signature:(void)
+InitDevice	D:\CAN_coding_test\CAN_test\main.c	106;"	p	line:106	file:	signature:(void)
+InitDevice	D:\CAN_coding_test\CAN_test\main.c	220;"	f	line:220	signature:(void)
+InitECAN	D:\CAN_coding_test\CAN_test\ECAN.c	110;"	f	line:110	signature:(void)
+InitECAN	D:\CAN_coding_test\CAN_test\ECAN.h	77;"	p	line:77	signature:(void)
+ONE_MS::(unsignedint)(DEVICE_OSC/4)*80	D:\CAN_coding_test\CAN_test\main.c	98;"	d	line:98	file:
+PRESSED::0	D:\CAN_coding_test\CAN_test\main.c	92;"	d	line:92	file:
+RXMsgFlag	D:\CAN_coding_test\CAN_test\ECAN.c	206;"	l	line:206
+TRUE::1	D:\CAN_coding_test\CAN_test\ECAN.h	68;"	d	line:68
+TRUE::1	D:\CAN_coding_test\CAN_test\main.c	94;"	d	line:94	file:
+_ECAN_H	D:\CAN_coding_test\CAN_test\ECAN.h	60;"	d	line:60
+buttonPressedState	D:\CAN_coding_test\CAN_test\main.c	250;"	l	line:250
+buttonWasPressed	D:\CAN_coding_test\CAN_test\main.c	127;"	v	line:127
+delay	D:\CAN_coding_test\CAN_test\main.c	111;"	f	line:111	signature:(int x)
+heartbeatCount	D:\CAN_coding_test\CAN_test\main.c	126;"	v	line:126
+i	D:\CAN_coding_test\CAN_test\main.c	113;"	l	line:113
+i	D:\CAN_coding_test\CAN_test\main.c	138;"	l	line:138
+j	D:\CAN_coding_test\CAN_test\main.c	113;"	l	line:113
+main	D:\CAN_coding_test\CAN_test\main.c	136;"	f	line:136	signature:(void)
+temp_D0	D:\CAN_coding_test\CAN_test\ECAN.c	94;"	v	line:94
+temp_D1	D:\CAN_coding_test\CAN_test\ECAN.c	95;"	v	line:95
+temp_D2	D:\CAN_coding_test\CAN_test\ECAN.c	96;"	v	line:96
+temp_D3	D:\CAN_coding_test\CAN_test\ECAN.c	97;"	v	line:97
+temp_D4	D:\CAN_coding_test\CAN_test\ECAN.c	98;"	v	line:98
+temp_D5	D:\CAN_coding_test\CAN_test\ECAN.c	99;"	v	line:99
+temp_D6	D:\CAN_coding_test\CAN_test\ECAN.c	100;"	v	line:100
+temp_D7	D:\CAN_coding_test\CAN_test\ECAN.c	101;"	v	line:101
+temp_DLC	D:\CAN_coding_test\CAN_test\ECAN.c	93;"	v	line:93
+temp_EIDH	D:\CAN_coding_test\CAN_test\ECAN.c	89;"	v	line:89
+temp_EIDL	D:\CAN_coding_test\CAN_test\ECAN.c	90;"	v	line:90
+temp_SIDH	D:\CAN_coding_test\CAN_test\ECAN.c	91;"	v	line:91
+temp_SIDL	D:\CAN_coding_test\CAN_test\ECAN.c	92;"	v	line:92
+x	D:\CAN_coding_test\CAN_test\main.c	128;"	v	line:128

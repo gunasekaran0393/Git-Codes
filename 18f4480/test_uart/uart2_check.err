@@ -1,0 +1,3 @@
+Warning[2103] E:\18f4480\test_uart\uart2_check.c 23 : default startup code expects main function declared as 'void main (void)'
+Warning[2054] E:\18f4480\test_uart\uart2_check.c 54 : suspicious pointer conversion
+Warning[2054] E:\18f4480\test_uart\uart2_check.c 65 : suspicious pointer conversion

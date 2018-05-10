@@ -1,0 +1,26 @@
+_SerialRxPinInterrupt: CODE, 8 0 1130
+_OpenUSART: CODE, 1138 0 104
+_set_lcdport: CODE, 2156 0 10
+i2_lcdcmd: CODE, 2094 0 26
+_lcd_puts: CODE, 1242 0 82
+__stringdata: SMALLCONST, 769 0 6
+i2_lcddata: CODE, 2068 0 26
+_main: CODE, 1406 0 66
+i2_dis_data: CODE, 1926 0 30
+_lcdcmd: CODE, 2042 0 26
+_Delay_ms: CODE, 1472 0 66
+__initialization: CODE, 1604 0 50
+i2_Delay_ms: CODE, 1538 0 66
+_lcd_goto: CODE, 1664 0 60
+_putsUSART: CODE, 1828 0 38
+_lcddata: CODE, 2016 0 26
+i2_dis_cmd: CODE, 1956 0 30
+i2_lcd_goto: CODE, 1724 0 60
+_WriteUSART: CODE, 2138 0 18
+_ReadUSART: CODE, 1986 0 30
+i2_lcd_puts: CODE, 1324 0 82
+_SetupClock: CODE, 2166 0 8
+_dis_cmd: CODE, 1896 0 30
+_dis_data: CODE, 1866 0 30
+_lcd_init: CODE, 1784 0 44
+Total: 2144

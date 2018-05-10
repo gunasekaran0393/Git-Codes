@@ -1,0 +1,40 @@
+
+String s = "";
+void setup() {
+ Serial.begin(9600);
+ 
+
+}
+
+void loop() 
+{
+ int temp,tur,vib,ph;
+  
+ temp = analogRead(0);
+ tur  = analogRead(1);
+ vib  = analogRead(2);
+ ph   = analogRead(3);
+ 
+ 
+
+// s += "TEMP:";
+ s += temp;
+ s +='+';
+ //s += "TURB:";
+ s += tur;
+ s +='+';
+// s += "VIB:";
+ s += vib;
+ s +='+';
+// s += "PH:";
+ s += ph;
+ s +='\r';
+
+ 
+ 
+ Serial.println(s);
+ s = "";
+ delay(500);
+  
+
+}

@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+Delay1Second	E:\project CODING\PIC18F4480\UART_SARATHI_CHECK.c	13;"	p	line:13	file:	signature:(void)
+EnableHighInterrupts	E:\18f4480\interrupt\interrupt.c	18;"	p	line:18	file:	signature:(void)
+EnableHighInterrupts	E:\18f4480\interrupt\interrupt.c	66;"	f	line:66	signature:(void)
+HighVector	E:\18f4480\interrupt\interrupt.c	28;"	f	line:28	signature:(void)
+HighVector	E:\project CODING\PIC18F4480\UART_SARATHI_CHECK.c	51;"	f	line:51	signature:(void)
+ISR	E:\18f4480\interrupt\interrupt.c	16;"	p	line:16	file:	signature:(void)
+ISR	E:\18f4480\interrupt\interrupt.c	38;"	f	line:38	signature:(void)
+LED3::PORTBbits.RB3	E:\18f4480\interrupt\interrupt.c	8;"	d	line:8	file:
+MessageBuffer	E:\project CODING\PIC18F4480\UART_SARATHI_CHECK.c	9;"	v	line:9
+MsgFromPIC	E:\project CODING\PIC18F4480\UART_SARATHI_CHECK.c	8;"	v	line:8
+SerialRxPinInterrupt	E:\project CODING\PIC18F4480\UART_SARATHI_CHECK.c	14;"	p	line:14	file:	signature:(void)
+SerialRxPinInterrupt	E:\project CODING\PIC18F4480\UART_SARATHI_CHECK.c	61;"	f	line:61	signature:(void)
+SetupClock	E:\project CODING\PIC18F4480\UART_SARATHI_CHECK.c	12;"	p	line:12	file:	signature:(void)
+SetupClock	E:\project CODING\PIC18F4480\UART_SARATHI_CHECK.c	43;"	f	line:43
+UART1Config	E:\project CODING\PIC18F4480\UART_SARATHI_CHECK.c	7;"	v	line:7
+baud	E:\project CODING\PIC18F4480\UART_SARATHI_CHECK.c	7;"	v	line:7
+etat_led	E:\18f4480\interrupt\interrupt.c	11;"	v	line:11
+flagIT_RB0	E:\18f4480\interrupt\interrupt.c	12;"	v	line:12
+i	E:\project CODING\PIC18F4480\UART_SARATHI_CHECK.c	11;"	v	line:11
+init	E:\18f4480\interrupt\interrupt.c	17;"	p	line:17	file:	signature:(void)
+init	E:\18f4480\interrupt\interrupt.c	20;"	f	line:20	signature:(void)
+ledstatut	E:\18f4480\interrupt\interrupt.c	13;"	v	line:13	file:
+main	E:\18f4480\interrupt\interrupt.c	77;"	f	line:77	signature:(void)
+main	E:\project CODING\PIC18F4480\UART_SARATHI_CHECK.c	15;"	f	line:15	signature:(int argc, char** argv)

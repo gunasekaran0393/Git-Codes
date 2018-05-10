@@ -1,0 +1,10 @@
+Warning[2066] D:\2015-16 code\18f4480\uart_check\uart_check.c 60 : type qualifier mismatch in assignment
+Error[1504] D:\2015-16 code\18f4480\uart_check\uart_check.c 82 : redefinition of 'uart_init'
+Error[1504] D:\2015-16 code\18f4480\uart_check\uart_check.c 98 : redefinition of 'uart_puts'
+Error[1504] D:\2015-16 code\18f4480\uart_check\uart_check.c 106 : redefinition of 'uart_put_array'
+Error[1504] D:\2015-16 code\18f4480\uart_check\uart_check.c 114 : redefinition of 'uart_putn'
+Error[1504] D:\2015-16 code\18f4480\uart_check\uart_check.c 131 : redefinition of 'uart_putc'
+Error[1504] D:\2015-16 code\18f4480\uart_check\uart_check.c 137 : redefinition of 'uart_getc'
+Warning[2058] D:\2015-16 code\18f4480\uart_check\uart_check.c 155 : call of function without prototype
+Warning[2058] D:\2015-16 code\18f4480\uart_check\uart_check.c 158 : call of function without prototype
+Warning[2054] D:\2015-16 code\18f4480\uart_check\uart_check.c 169 : suspicious pointer conversion
